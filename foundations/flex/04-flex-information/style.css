@@ -8,8 +8,27 @@ img {
 }
 
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+}
+
+.plants {
+  justify-content: center;
+  padding: 32px;
+  display: flex;
+  gap: 52px;
+}
+
+.plant-and-desc {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.plant-and-desc .text {
+  text-align: center;
+  width: 200px;
 }
 
 /* do not edit this footer */
